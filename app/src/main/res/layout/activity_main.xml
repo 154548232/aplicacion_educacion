@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplicacion de educacion"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="55dp"
+        tools:ignore="MissingConstraints"
+android:textColor="#ED1616"
+        />
+
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="376dp"
+        android:lineSpacingExtra="8dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Me gustaría desarrollar una aplicación en el sector de la educación. Creo que la tecnología puede mejorar significativamente la forma en que los estudiantes aprenden y los maestros enseñan. Además, me apasiona la educación y me gustaría contribuir a hacerla más accesible y efectiva para todos.
+
+La idea de la aplicación sería una aplicación de tutoría en línea llamada TutorMe. La aplicación estaría diseñada para estudiantes que necesitan ayuda con sus estudios y para tutores que desean ofrecer sus servicios de tutoría en línea"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:onClick="onClick"
+        android:layout_centerHorizontal="true"
+        android:text="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.948"
+        tools:ignore="UnknownId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
